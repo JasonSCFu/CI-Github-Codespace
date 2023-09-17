@@ -24,7 +24,3 @@ jobs:
       - name: Format code with Python Black
         run: |
           make format
-      architecture: 'x64'
-
-  - script: python setup.py sdist
-    displayName: 'Build sdist'
